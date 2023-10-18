@@ -1,10 +1,3 @@
-# provider "google" {
-#   project = "tfgcptraining"
-#   region = "us-east4"
-#   zone = "us-east4-a"
-  
-# }
-
 variable "var_vpcname" {
   type = list
   default = ["varpc1", "varpc2", "varpc3"]
